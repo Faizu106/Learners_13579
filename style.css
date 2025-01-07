@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+/* CSS */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #282828;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.search-bar .search-icon {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 8px; /* Space between icon and input */
+}
+
+.search-bar input {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px;
+  margin-right: 10px;
+  flex: 1; /* Makes the input field expand to take available space */
+}
+
+.search-bar button {
+  background-color: #720625; /* Maroon */
+  color: #fff;
+  border: none; 
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+  /* .search-bar button:hover{
+
+  }
+   */
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: .5rem;
+  }
+
+  header a {
+    font-size: 1 rem;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0.3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none; /* Remove underline */
+    position: relative;
+    transition: transform 0.3s ease, font-size 0.3s ease, border-bottom 0.3s ease;
+}
+
+header a:hover {
+    font-size: 1.2rem; /* Increase text size */
+    transform: scale(1.1); /* Slightly enlarge the text */
+    border-bottom: 2px solid white; /* Add underline */
+}
+
+
+
+  .auth-buttons {
+    display: flex;
+  }
+  
+  .auth-buttons button {
+    margin-left: 10px;
+    background-color: #720625; /* Maroon */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
